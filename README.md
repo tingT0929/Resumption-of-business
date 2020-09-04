@@ -9,9 +9,8 @@ Our data source consists of cumulative confirmed cases for New York, New Jersey,
 The data to reproduce our results are available.
 
 ### 3) Description
-The data incorporte 4 `.RData` files and 1 `.csv` file.
-- The cumulative confirmed cases in the states of the United States were recorded and collected in a single `.csv` file (`us-states.csv`) 
-- The cumulative confirmed cases in each of states were complied in each of four `.rda` files (`CT_dat.RData`; `Ca_dat.RData`;`NJ_dat.RData`;`NY_dat.RData`)
+The data incorporte 4 `.RData` files.
+- The cumulative confirmed cases in each of four states were complied in each of four `.RData` files (`CT_dat.RData`; `CA_dat.RData`;`NJ_dat.RData`;`NY_dat.RData`)
 
 ### 4) Permissions
 The data were orignially collected by the authors.
@@ -22,9 +21,9 @@ The data were orignially collected by the authors.
 The codes incorported all the scripts to reproduce the analysis in the paper. 
 
 ### 2) Reporducibility
-- The different classes of counties were obtained by runing `clustering.R`.
-- The singificant contributing factors related to increaning the mortiliay of COVID-19 were identified in different classes of counties by runing `var_glm.R`.
-
+- The estimation of Susceptible individuals (S), unidentified infectious (I), self-healing without being confirmed (H), and confirmed cases for the Equation (1) in the paper by runing `Modeling_function.R`.
+- The simulation of resumption of busniess by runing `Resumption.R`.
+- The evaluation of resumptiong of busniess for each of four states (New York, New Jersey, Connecticut, and California) inadividually by running `NY.R`;`NJ.R`;`CT.R`; and `CA.R`.
 
 ----
 ## 3. Paper
